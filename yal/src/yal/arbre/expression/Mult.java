@@ -17,4 +17,10 @@ public class Mult extends BinaireArithmetique {
         return " * ";
     }
 
+	@Override
+	public void verifier() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

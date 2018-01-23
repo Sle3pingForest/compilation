@@ -12,4 +12,10 @@ public class ConstanteEntiere extends Constante {
         super(texte, n) ;
     }
 
+	@Override
+	public void verifier() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

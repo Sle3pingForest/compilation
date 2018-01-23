@@ -17,4 +17,10 @@ public class OuLogique extends BinaireLogique {
         return " ou " ;
     }
 
+	@Override
+	public void verifier() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
