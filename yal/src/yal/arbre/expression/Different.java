@@ -22,10 +22,17 @@ public class Different extends Comparaison {
 
 	@Override
 	public void verifier() {
-		// TODO Auto-generated method stub
 		if ( gauche.getType() != droite.getType() ) {
-			throw new AnalyseSemantiqueException("blabla");
+			throw new AnalyseSemantiqueException("ERREUR SEMANTIQUE : les operandes ne sont "
+					+ "pas du meme type");
 		}
 	}
+
+	@Override
+	public int getValue() {
+		return this.valeur;
+	}
+
+	
   
 }

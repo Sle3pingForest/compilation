@@ -22,5 +22,11 @@ public class Moins extends BinaireArithmetique {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public int getValue() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
     
 }

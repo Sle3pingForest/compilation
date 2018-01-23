@@ -8,13 +8,19 @@ package yal.arbre.expression;
 
 public class ConstanteBool extends Constante {
     
+	private int bool;
     public ConstanteBool(String texte, int n) {
         super(texte, n, "bool") ;
+        this.bool = (texte.equals("vrai") ? 1 : 0); 
     }
+    
+
 
 	@Override
-	public void verifier() {
-		// TODO Auto-generated method stub
+	public int getValue() {
+		return valeur;
 	}
+
+	
 
 }

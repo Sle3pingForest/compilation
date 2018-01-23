@@ -23,4 +23,10 @@ public class Mult extends BinaireArithmetique {
 		
 	}
 
+	@Override
+	public int getValue() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

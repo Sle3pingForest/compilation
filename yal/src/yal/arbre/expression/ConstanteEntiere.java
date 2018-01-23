@@ -9,13 +9,15 @@ package yal.arbre.expression;
 public class ConstanteEntiere extends Constante {
     
     public ConstanteEntiere(String texte, int n) {
-        super(texte, n, "int") ;
+        super(texte, n, "entier") ;
     }
 
 	@Override
-	public void verifier() {
-		// TODO Auto-generated method stub
-		
+	public int getValue() {
+		return valeur;
 	}
 
+	
+
+	
 }
