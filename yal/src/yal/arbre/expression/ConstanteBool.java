@@ -15,7 +15,6 @@ public class ConstanteBool extends Constante {
 	@Override
 	public void verifier() {
 		// TODO Auto-generated method stub
-		
 	}
 
 }
