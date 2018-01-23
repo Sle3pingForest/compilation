@@ -20,7 +20,8 @@ public class Egal extends Comparaison {
 	@Override
 	public void verifier() {
 		// TODO Auto-generated method stub
-		if(gauche.getType().equals(droite.getType())){
+		if(!this.gauche.getType().equals(this.droite.getType())){
+			//throw new AnalyseSemantiqueException()
 			
 		}
 	}
