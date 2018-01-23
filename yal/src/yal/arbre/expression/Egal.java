@@ -22,7 +22,9 @@ public class Egal extends Comparaison {
 	@Override
 	public void verifier() {
 		if(!this.gauche.getType().equals(this.droite.getType())){
-			throw new AnalyseSemantiqueException("error type");
+			
+			System.err.println("Fichier inexistant") ;
+			throw new AnalyseSemantiqueException("Erreur sémantique : comparaison type incorrect");
 
 		}
 	}

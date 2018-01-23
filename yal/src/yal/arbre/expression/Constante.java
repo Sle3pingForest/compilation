@@ -14,6 +14,12 @@ public abstract class Constante extends Expression {
         super(n) ;
         cste = texte ;
     }
+    
+    protected Constante(String texte, int n, String s) {
+        super(n,s) ;
+        cste = texte ;
+    }
+
 
     @Override
     public String toString() {
