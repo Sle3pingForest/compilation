@@ -25,6 +25,9 @@ public class NonLogique extends Unaire {
 			throw new AnalyseSemantiqueException(" l operande pour le non logique n est pas de type "
 					+ " type Bool");
 		}
+		else {
+			setType("bool");
+		}
 		
 	}
 
