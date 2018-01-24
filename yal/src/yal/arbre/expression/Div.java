@@ -1,5 +1,7 @@
 package yal.arbre.expression;
 
+import yal.exceptions.AnalyseSemantiqueException;
+
 /**
  * 3 déc. 2015
  *
@@ -20,7 +22,11 @@ public class Div extends BinaireArithmetique {
 	@Override
 	public void verifier() {
 		// TODO Auto-generated method stub
-		
+		if (gauche.getType() != "entier" || droite.getType() != "entier") {
+			
+			throw new AnalyseSemantiqueException("Erreur sémantique division : une ou plusieurs expressions " +
+					" ne sont pas de type entier");
+		}
 	}
 
 	@Override
