@@ -19,15 +19,7 @@ public class Div extends BinaireArithmetique {
         return " / ";
     }
 
-	@Override
-	public void verifier() {
-		// TODO Auto-generated method stub
-		if (gauche.getType() != "entier" || droite.getType() != "entier") {
-			
-			throw new AnalyseSemantiqueException("Erreur sémantique division : une ou plusieurs expressions " +
-					" ne sont pas de type entier");
-		}
-	}
+	
 
 	@Override
 	public int getValue() {
