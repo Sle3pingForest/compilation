@@ -1,5 +1,7 @@
 package yal.arbre.expression;
 
+import yal.exceptions.AnalyseSemantiqueException;
+
 /**
  * 3 déc. 2015
  *
@@ -19,13 +21,15 @@ public class Inferieur extends Comparaison {
 
 	@Override
 	public void verifier() {
-		// TODO Auto-generated method stub
+		if(!this.gauche.getType().equals(this.droite.getType())){
+			throw new AnalyseSemantiqueException("Erreur sémantique : comparaison type incorrect");
+
+		}
 		
 	}
 
 	@Override
 	public int getValue() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
     

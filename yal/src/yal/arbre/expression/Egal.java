@@ -19,20 +19,12 @@ public class Egal extends Comparaison {
         return " == ";
     }
 
-	@Override
-	public void verifier() {
-		if(!this.gauche.getType().equals(this.droite.getType())){
-			
-			System.err.println("Fichier inexistant") ;
-			throw new AnalyseSemantiqueException("Erreur sémantique : comparaison type incorrect");
-
-		}
-	}
 
 	@Override
 	public int getValue() {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
     
 }
