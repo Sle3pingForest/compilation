@@ -16,7 +16,7 @@ public abstract class BinaireArithmetique extends Binaire {
     
     @Override
 	public void verifier() {
-		// TODO Auto-generated method stub
+
 		if (gauche.getType() != "entier" || droite.getType() != "entier") {
 			
 			throw new AnalyseSemantiqueException(" une ou plusieurs expressions" +

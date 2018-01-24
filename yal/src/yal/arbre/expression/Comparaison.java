@@ -18,7 +18,7 @@ public abstract class Comparaison extends Binaire {
 	@Override
 	public void verifier() {
 		if(!this.gauche.getType().equals(this.droite.getType())){
-			throw new AnalyseSemantiqueException(" Comparaison type incorrect entre " + this.gauche.getType() + " & " + this.droite.getType());
+			throw new AnalyseSemantiqueException(" Comparaison operateur "+ operateur() + " incorrect entre " + this.gauche.getType() + " & " + this.droite.getType());
 		}
 
 	}
