@@ -1,5 +1,7 @@
 package yal.arbre.expression;
 
+import yal.exceptions.AnalyseSemantiqueException;
+
 /**
  * 3 d√©c. 2015
  *
@@ -20,7 +22,10 @@ public class MoinsUnaire extends Unaire {
 	@Override
 	public void verifier() {
 		if(expression.getType()!="entier") {
-			
+			throw new AnalyseSemantiqueException("l operande pour le Non logique n¥est pas de type entier");
+		}
+		else {
+			setType("entier");
 		}
 	}
 
