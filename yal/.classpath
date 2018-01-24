@@ -2,8 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="C:/Users/AS/IdeaProjects/projet/java-cup-11a.jar"/>
 	<classpathentry kind="lib" path="C:/Users/AS/IdeaProjects/projet/jflex-1.6.1.jar"/>
+=======
+>>>>>>> 6bf3d4e5d120e65e209cf3c8f42e5b9232ed6804
 	<classpathentry kind="lib" path="/opt/depot/projetToucan/java-cup-11a.jar"/>
 	<classpathentry kind="lib" path="/opt/depot/projetToucan/jflex-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
