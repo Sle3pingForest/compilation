@@ -13,6 +13,7 @@ public abstract class Constante extends Expression {
     protected Constante(String texte, int n) {
         super(n) ;
         cste = texte ;
+        valeur=Integer.parseInt(texte);
     }
     
     protected Constante(String texte, int n, String s) {
@@ -20,7 +21,10 @@ public abstract class Constante extends Expression {
         cste = texte ;
     }
 
-
+    @Override 
+    public void verifier() {
+    	
+    }
     @Override
     public String toString() {
         return cste ;

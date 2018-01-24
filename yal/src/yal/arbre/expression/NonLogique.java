@@ -23,4 +23,10 @@ public class NonLogique extends Unaire {
 		
 	}
 
+	@Override
+	public int getValue() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }

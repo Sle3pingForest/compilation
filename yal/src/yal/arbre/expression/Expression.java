@@ -11,6 +11,7 @@ import yal.arbre.ArbreAbstrait;
 public abstract class Expression extends ArbreAbstrait {
 	
 	protected String type;
+	protected int valeur;
     
     public void setType(String type) {
 		this.type = type;
@@ -27,4 +28,5 @@ public abstract class Expression extends ArbreAbstrait {
     protected String getType(){
     	return type;
     }
+    public abstract int getValue();
 }
