@@ -19,8 +19,9 @@ public class MoinsUnaire extends Unaire {
 
 	@Override
 	public void verifier() {
-		// TODO Auto-generated method stub
-		
+		if(expression.getType()!="entier") {
+			
+		}
 	}
 
 	@Override
